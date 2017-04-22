@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 
-class componentName extends Component {
+class Hey extends Component {
   render() {
     return (
       <div>
-        hello world
+        Hey
       </div>
     );
   }
 }
 
-ReactDOM.render(<componentName />, document.getElementById("root"));
+ReactDOM.render(<Hey />, document.getElementById("root"));
