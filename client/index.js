@@ -1,14 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
+import CreateMovie from './components/CreateMovie.jsx';
 
-class Hey extends Component {
-  render() {
-    return (
-      <div>
-        Hey
-      </div>
-    );
-  }
-}
-
-ReactDOM.render(<Hey />, document.getElementById("root"));
+ReactDOM.render(<CreateMovie />, document.getElementById("root"));
