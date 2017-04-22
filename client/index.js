@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
-import CreateMovie from './components/CreateMovie.jsx';
+import CreateMovieContainer from './containers/CreateMovieContainer.jsx';
 
-ReactDOM.render(<CreateMovie />, document.getElementById("root"));
+ReactDOM.render(<CreateMovieContainer />, document.getElementById("root"));

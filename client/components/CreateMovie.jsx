@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CreateMovie = () => {
+const CreateMovie = (props) => {
   return (
     <div>
       <div className="text-lg-center">
@@ -8,7 +8,7 @@ const CreateMovie = () => {
         <p>App to list movies</p>
       </div>
       <div className="input-group col-lg-4 offset-lg-4">
-        <input type="text" placeholder="enter movie name" />
+        <input type="text" onBlur={props.handleBlur} placeholder="enter movie name" />
         <div className="input-group-btn">
           <button className="btn btn-primary">Add</button>
         </div>
